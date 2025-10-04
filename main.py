@@ -81,7 +81,7 @@ while True:
     oled.text("{:.2f} C".format(temp_pantalla), 35, 35)
     oled.show()
     
-#TEST DE ENCENDIDO DE LOS LEDS UWU
+#ENCENDIDO DE LOS LEDS 
     led_r.value(act(peso2,(bmp.temperature/(100)),b2))
     led_v.value(norm((act(peso2,(bmp.temperature/(100)),b2)),(act(peso1,(bmp.temperature/(100)),b1))))
     led_b.value(act(peso1,(bmp.temperature/(100)),b1))
