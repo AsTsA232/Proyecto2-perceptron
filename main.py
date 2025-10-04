@@ -75,7 +75,6 @@ while True:
 #IMPRESION DE LOS DATOS EN PANTALLA
     print("*******************************************")
     print("Temperatura: {:.2f} C".format(temp_pantalla))
-    print("Presion: {:.2f} hPa".format(pres_pantalla))
 
 #VALORES EN LA OLED
     oled.text('Temperatura:', 15, 25)
